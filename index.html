@@ -18,6 +18,10 @@
     <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js
     "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"
+        integrity="sha256-3blsJd4Hli/7wCQ+bmgXfOdK7p/ZUMtPXY08jmxSSgk=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"
+            integrity="sha256-ENFZrbVzylNbgnXx0n3I1g//2WeO47XxoPe0vkp3NC8=" crossorigin="anonymous" />
     <title>Dmails</title>
 </head>
 
@@ -66,13 +70,13 @@
                     using.</p>
                 <div class="news-letter-r-1">
                     <div class="input">
-                        <input required class="name" type="text" placeholder="Name">
-                        <input required class="name" type="text" placeholder="Company Name">
+                        <input  required class="name" type="text" placeholder="Name">
+                        <input  required class="name" type="text" placeholder="Company Name">
                     </div>
-                    <input required class="email-address" type="email" placeholder="Email Address">
+                    <input  required class="email-address" type="email" placeholder="Email Address">
                 </div>
                 <div class="popup-button">
-                    <div class="Submit">Submit</div>
+                    <div  class="Submit">Submit</div>
                     <p>By submitting this form, you agree with Dmail's Privacy Policy</p>
                 </div>
 
@@ -100,19 +104,19 @@
                     <form class="form-group" id="buissnes">
                         <div class="input">
                             <div class="error-placment">
-                                <input required class="name" type="text" name="FirmName" placeholder="Firm Name">
+                                <input id="E6" required class="name" type="text" name="FirmName" placeholder="Firm Name">
                             </div>
                             <div class="error-placment">
-                                <input required class="name" type="text" name="Name" placeholder="Your Name">
+                                <input id="E5" required class="name" type="text" name="Name" placeholder="Your Name">
                             </div>
                         </div>
                         <div class="error-placment">
-                            <input required class="email-address" type="text" name="email" placeholder="Email Address">
+                            <input id="E4" required class="email-address" type="text" name="email" placeholder="Email Address">
                         </div>
                     </form>
                 </div>
                 <div class="popup-button">
-                    <input onclick="onNotified()" class="btn btn-primary Submit" id="submit-button" type="submit"
+                    <input onclick="submitId4()" class="btn btn-primary Submit" id="submit-button" type="submit"
                         value="Submit"></input>
                     <p>By submitting this form, you agree with Dmail's Privacy Policy</p>
                 </div>
@@ -142,20 +146,20 @@
                     <form class="form-group" id="buissnes-2">
                         <div class="input">
                             <div class="error-placment">
-                                <input required class="name" type="text" name="FirmName2" placeholder="Firm Name">
+                                <input required class="name" id="E9"  type="text" name="FirmName2" placeholder="Firm Name">
                             </div>
                             <div class="error-placment">
-                                <input required class="name" type="text" name="Name2" placeholder="Your Name">
+                                <input required class="name" id="E8" type="text" name="Name2" placeholder="Your Name">
                             </div>
                         </div>
                         <div class="error-placment">
-                            <input required class="email-address" type="text" name="email2" placeholder="Email Address">
+                            <input required class="email-address" id="E7" type="text" name="email2" placeholder="Email Address">
                         </div>
                     </form>
                 </div>
                 <div class="popup-button">
-                    <input onclick="onNotified()" class="btn btn-primary Submit" id="submit-button" type="submit"
-                        value="Submit"></input>
+                    <div onclick="submitId5()" class="Submit" 
+                        >Submit</div>
                     <p>By submitting this form, you agree with Dmail's Privacy Policy</p>
                 </div>
 
@@ -562,10 +566,10 @@
             <form class="form-group" id="notified">
                 <div class="s9-buttons">
                     <div class="error-placment">
-                        <input class="s9-button-1" type="text" name="email3" placeholder="Email Address">
+                        <input class="s9-button-1" type="text" name="email3" id="E3" placeholder="Email Address">
                     </div>
-                    <input onclick="onNotified()" class=" btn btn-primary  s9-button-2" type="submit"
-                        value="Get Notified" id="submit-button"></input>
+                    <div onclick="submitId3()" class="s9-button-2"
+                        >Get notified</div>
                 </div>
             </form>
             <div class="mobile">
@@ -819,7 +823,7 @@
                         send money.</li>
 
                 </ul>
-                <div href="./personal.html" class="Create-9">Create Dmails ID
+                <div onclick="openInNewTab('./personal.html')"  class="Create-9">Create Dmails ID
 
                     <p class="BNS">Powerd By Blockstack <span
                             onclick="openInNewTab('https://docs.blockstack.org/core/naming/introduction.html')"
@@ -848,7 +852,7 @@
                         and control.</li>
 
                 </ul>
-                <p class=" push-33 Create-9">Contact us</p>
+                <p class="push-33 Create-9">Contact us</p>
             </div>
         </div>
     </div>
@@ -979,14 +983,14 @@
             <form class="form-group" id="contact">
                 <div class="Contact-form">
                     <div class="error-placment">
-                        <input required class="I-1" type="text" name="Name4" placeholder="Name">
+                        <input required class="I-1" type="text" name="Name4" id="E1" placeholder="Name">
                     </div>
                     <div class="error-placment">
-                        <input required class="I-1" type="email" name="email4" id="" placeholder="Email Address">
+                        <input required class="I-1" type="email" name="email4" id="E2" placeholder="Email Address">
                     </div>
                     <textarea class="I-2" type="text" name="comment" id="" placeholder="Content" rows="9"></textarea>
-                    <input onclick="onNotified()" class="btn btn-primary s11-button" id="submit-button" type="submit"
-                        value="Submit"></input>
+                    <div onclick="submitId2()" class="s11-button"   id="contact-submit"
+                        >Submit</div>
                 </div>
             </form>
         </div>

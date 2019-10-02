@@ -23,7 +23,8 @@
     background-position-y: -30px;
     margin-bottom: 150px;
 }
-.small-grey-1{
+
+.small-grey-1 {
     font-size: 13px;
     color: red;
 }
@@ -37,6 +38,10 @@
 .personal-s1-img {
     width: 44%;
     object-fit: contain;
+}
+
+.blue-banner {
+    height: 375px;
 }
 
 .personal-s1-title {
@@ -78,11 +83,12 @@
     cursor: pointer;
 }
 
-.personal-create-button:hover{
+.personal-create-button:hover {
     background: white;
     border: 1 px solid #0065F2;
     color: #0065F2;
-} 
+}
+
 .personal-tip {
     margin-left: 10px;
     width: 40%;
