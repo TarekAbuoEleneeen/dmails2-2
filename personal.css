@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* s1 */
+
+.personal-blue {
+    color: #0065F2;
+}
+
+.personal-s1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 150px;
+    padding-left: 6em;
+    background: url('./assets/Pattern.svg');
+    background-repeat: no-repeat;
+    background-position-y: -30px;
+    margin-bottom: 150px;
+}
+.small-grey-1{
+    font-size: 13px;
+    color: red;
+}
+
+.personal-art-1 {
+    width: 50%;
+    height: 100%;
+    padding-top: 6%;
+}
+
+.personal-s1-img {
+    width: 44%;
+    object-fit: contain;
+}
+
+.personal-s1-title {
+    font-size: 56px;
+    line-height: 66px;
+    /* or 118% */
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    opacity: .96;
+    padding-right: 66px;
+}
+
+.personal-s1-paragraph {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    mix-blend-mode: normal;
+    opacity: 0.96;
+    margin-bottom: 30px;
+    padding-right: 129px;
+}
+
+.perosnal-art1-create {
+    display: flex;
+    align-items: center;
+}
+
+.personal-create-button {
+    width: 30%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0065F2;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.personal-create-button:hover{
+    background: white;
+    border: 1 px solid #0065F2;
+    color: #0065F2;
+} 
+.personal-tip {
+    margin-left: 10px;
+    width: 40%;
+}
+
+.title-99 {
+    width: 50%;
+}
+
+.personal-email {
+    width: 58%;
+    object-fit: contain;
+}
+
+.blue-banner {
+    background: url('./assets/icons.png')
+}
+
+/* s2 */
+
+.personal-s2 {
+    margin-top: 150px;
+    position: relative;
+    background: url('./assets/Pattern.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 125px;
+}
+
+.s2-dmail-icon {
+    position: absolute;
+    top: 48%;
+    left: 48%;
+}
+
+.personal-s2-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 6%;
+    padding-left: 0%;
+}
+
+.personal-s2-title {
+    text-align: center;
+    font-size: 56px;
+    padding: 0 30% 0 30%;
+}
+
+.personal-art2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 28%;
+}
+
+.personal-feature-title {
+    font-size: 26px;
+    opacity: 0.96;
+    margin-bottom: 11px;
+}
+
+.personal-feature-paragraph {
+    font-size: 18px;
+    opacity: 0.96;
+    margin-bottom: 50px;
+    font-weight: normal;
+    color: #a8a8a8;
+}
+
+/* .s3 */
+
+.personal-s3 {
+    margin-top: 150px;
+    background: url(./assets/Pattern.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 50px;
+}
+
+.personal-s3-title {
+    text-align: center;
+    font-size: 56px;
+    padding: 0 30% 0 30%;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 50%;
+}
+
+.top-blue-banner {
+    position: absolute;
+    width: 77px;
+    object-fit: contain;
+    right: 7%;
+    top: -1%;
+}
+
+.middle-blue-banner {
+    position: absolute;
+    bottom: 62%;
+    right: -1%;
+    width: 77px;
+    object-fit: contain;
+}
+
+.bottom-blue-banner {
+    position: absolute;
+    bottom: 38%;
+    right: 9%;
+    width: 77px;
+    object-fit: contain;
+}
+
+.blue-user-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0 10px 10px;
+    width: 570px;
+    height: 90 px;
+    background: #0065F2;
+    border-radius: 24px;
+    margin-bottom: 30px;
+}
+
+.personal-user {
+    width: 68px;
+    height: 68px;
+    object-fit: contain;
+}
+
+.user-id {
+    font-size: 36px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.push {
+    margin-left: 8em;
+    background-color: #CBCFD4;
+    color: black;
+}
+
+@media only screen and (max-width: 625px) {
+    .personal-s1 {
+        flex-direction: column-reverse;
+        background: none;
+        align-items: center;
+        padding: 0;
+    }
+    .personal-art-1 {
+        width: 100%;
+        padding: 0;
+    }
+    .personal-s1-paragraph {
+        padding: 0;
+    }
+    .personal-s1-title {
+        padding: 0;
+    }
+}

@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="./assets/fav@2x.png" />
+    <link href="./Fonts/fontawesome-free-5.10.2-web/css/all.css" rel="stylesheet">
+    <link href="glider.min.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js
+    "></script>
+    <title>Dmails</title>
+</head>
+
+<body>
+
+    <div onclick="closeVideo()" id="videoOverlay">
+        <iframe id='YT_Video' class="YT" width="871" height="490"
+            src="https://www.youtube.com/embed/cjFD8u6uNT8?enablejsapi=1&version=3&playerapiid=ytplayer" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="black-overlay">
+        <div class="close-button" onclick="onCloseMeetPopUp()">X</div>
+        <div class="meet-the-team">
+            <img class="meet-the-team-img" src="./assets/meet-the team.png" alt="">
+            <div class="art-99">
+                <h1>Meet Us at GITEX'19</h1>
+                <p>We are extremely thrilled to announce that Dmails team will be at GITEX'19 Future Starts, Dubai from
+                    October 6th to
+                    October 9th.</p>
+                <p>If you are planning to visit GITEX' 19, come and say hi.</p>
+                <p> Zabeel Hall 4 - Stand C-25 - Egyptian Pavilion, Gitex Dubai, World Trade Center</p>
+                <hr>
+                <p class="grey"> Don't forget to claim your one-year subscription in Dmails for FREE. It's a special
+                    gift from Dmails
+                    to our booth
+                    visitors.</p>
+                <p>Schedule your slot for a one-to-one meeting with our founder.</p>
+                <div class="popup-button">
+                    <div onclick="openInNewTab('https://calendly.com/m-abdou/gitex-19?month=2019-10')"
+                        class="submit-44">Schedule your meeting NOW</div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="black-overlay-3">
+        <div class="close-button" onclick="onCloseMeetPopUp3()">X</div>
+        <div class="meet-the-team">
+            <img class="meet-the-team-img" src="./assets/meet-the team.png" alt="">
+            <div class="art-99">
+                <h1>Signup For Our Newsletter. </h1>
+                <p>All account registered on Dmails are not owned by Dmails, but it lives on a decentralized network.
+                    This allow users to
+                    emails directly to their contact without having to remember which email provider your contact is
+                    using.</p>
+                <div class="news-letter-r-1">
+                    <div class="input">
+                        <input required class="name" type="text" placeholder="Name">
+                        <input required class="name" type="text" placeholder="Company Name">
+                    </div>
+                    <input required class="email-address" type="email" placeholder="Email Address">
+                </div>
+                <div class="popup-button">
+                    <div class="Submit">Submit</div>
+                    <p>By submitting this form, you agree with Dmail's Privacy Policy</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="black-overlay-1">
+        <div class="close-button" onclick="onCloseMeetPopUp1()">X</div>
+        <div class="meet-the-team">
+            <img class="meet-the-team-img" src="./assets/buissnes.png" alt="">
+            <div class="art-99">
+                <h2>Ask for Dmails pitch deck for investment purposes.</h2>
+                <p>Since Dmails started it's a minimum viable product in June 2019, we have received many requested from
+                    VCs and angel
+                    investors willing to discuss our future plans for investment proposes, it was taking some time for
+                    them to get the
+                    essential information about our company, this is why we have prepared a fully detailed investor
+                    pitch deck ready for
+                    them.</p>
+                <p>Submit The Following Form </p>
+                <hr>
+                <div class="news-letter-r-1">
+                    <p class="grey qoute">The Following Pieces of information are required from your side to proceed
+                        further.</p>
+                    <form class="form-group" id="buissnes">
+                        <div class="input">
+                            <div class="error-placment">
+                                <input required class="name" type="text" name="FirmName" placeholder="Firm Name">
+                            </div>
+                            <div class="error-placment">
+                                <input required class="name" type="text" name="Name" placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="error-placment">
+                            <input required class="email-address" type="text" name="email" placeholder="Email Address">
+                        </div>
+                    </form>
+                </div>
+                <div class="popup-button">
+                    <input onclick="onNotified()" class="btn btn-primary Submit" id="submit-button" type="submit"
+                        value="Submit"></input>
+                    <p>By submitting this form, you agree with Dmail's Privacy Policy</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="black-overlay-4">
+        <div class="close-button" onclick="onCloseMeetPopUp4()">X</div>
+        <div class="meet-the-team">
+            <img class="meet-the-team-img" src="./assets/buissnes.png" alt="">
+            <div class="art-99">
+                <h2>Ask for Dmails pitch deck for investment purposes.</h2>
+                <p>Since Dmails started it's a minimum viable product in June 2019, we have received many requested from
+                    VCs and angel
+                    investors willing to discuss our future plans for investment proposes, it was taking some time for
+                    them to get the
+                    essential information about our company, this is why we have prepared a fully detailed investor
+                    pitch deck ready for
+                    them.</p>
+                <p>Submit The Following Form </p>
+                <hr>
+                <div class="news-letter-r-1">
+                    <p class="grey qoute">The Following Pieces of information are required from your side to proceed
+                        further.</p>
+
+                    <form class="form-group" id="buissnes-2">
+                        <div class="input">
+                            <div class="error-placment">
+                                <input required class="name" type="text" name="FirmName2" placeholder="Firm Name">
+                            </div>
+                            <div class="error-placment">
+                                <input required class="name" type="text" name="Name2" placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="error-placment">
+                            <input required class="email-address" type="text" name="email2" placeholder="Email Address">
+                        </div>
+                    </form>
+                </div>
+                <div class="popup-button">
+                    <input onclick="onNotified()" class="btn btn-primary Submit" id="submit-button" type="submit"
+                        value="Submit"></input>
+                    <p>By submitting this form, you agree with Dmail's Privacy Policy</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="black-overlay-1">
+        <div class="close-button" onclick="onCloseMeetPopUp1()">X</div>
+        <div class="meet-the-team">
+            <img class="meet-the-team-img" src="./assets/buissnes.png" alt="">
+            <div class="art-99">
+                <h2>Ask for Dmails pitch deck for investment purposes.</h2>
+                <p>Since Dmails started it's a minimum viable product in June 2019, we have received many requested from
+                    VCs and angel
+                    investors willing to discuss our future plans for investment proposes, it was taking some time for
+                    them to get the
+                    essential information about our company, this is why we have prepared a fully detailed investor
+                    pitch deck ready for
+                    them.</p>
+                <p>Submit The Following Form </p>
+                <hr>
+                <div class="news-letter-r-1">
+                    <p class="grey qoute">The Following Pieces of information are required from your side to proceed
+                        further.</p>
+                    <div class="input">
+                        <input required class="name" type="text" placeholder="Firm Name">
+                        <input required class="name" type="text" placeholder="Your Name">
+                    </div>
+                </div>
+                <input required class="email-address" type="text" placeholder="Email Address">
+                <div class="popup-button">
+                    <div class="Submit">Submit</div>
+                    <p>By submitting this form, you agree with Dmail's Privacy Policy</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="black-overlay-2">
+        <div class="close-button" onclick="onCloseMeetPopUp2()">X</div>
+        <div class="meet-the-team">
+            <img class="meet-the-team-img" src="./assets/CEO.png" alt="">
+            <div class="art-99">
+                <h1>Meet Dmails Founder</h1>
+                <p class="qoute">“As a founder of Dmails, I love to listen to our customers and getting their feedback
+                    about our
+                    product and what our
+                    customers are looking for so we can take in our consideration in the future updates.</p>
+                <p class="qoute">I give eight sessions on a daily basis, each of fifteen minutes one-to-one web
+                    conference with who’s
+                    caring to tell us
+                    what he thinks about Dmails. “</p>
+                <p class=" grey title-00">Mohamed Abdou<br>
+                    Founder & CEO</p>
+                <p class="qoute">Schedule your slot and let's talk about Dmails in details.</p>
+
+
+                <div class="popup-button">
+                    <div onclick="openInNewTab('https://calendly.com/m-abdou/meet-dmails-founder?month=2019-09')"
+                        class="Submit-1">Schedule your meeting NOW</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div>
+            <img src="./assets/logo 2 s BW - dark.png" alt="DmailsLogo" class="logo">
+        </div>
+        <div id="menu-center">
+            <ul class="Navi">
+                <a href='#AppMining' class="Menu-One">App Mining</a>
+                <a href='#Features' class="Menu-Two">Features</a>
+                <a href='#Timeline' class="Menu-Three">Timeline</a>
+                <a href="#Payment" class="Menu-Four">Pricing </a>
+                <a href="#Contact" class="Menu-Five">Contact</a>
+                <a href="#FAQ" class="Menu-Six">FAQ</a>
+            </ul>
+        </div>
+        <div class="show-mobile" id="nav-icon4">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="login-create">
+            <a href="https://app.dmail.online/" class="login">Sign in</a>
+            <a href="https://app.dmail.online/" id="lower-font" class="create">Create Account</a>
+        </div>
+    </div>
+    <div id='nav-overlay' class=" show-mobile nav-overlay">
+        <div class="nav-mobile">
+            <div class="nav-header">
+                <img src="./assets/logo 2 s BW - dark.png" alt="DmailsLogo" class="mobile-logo">
+                <div id='nav-close' class="nav-close">X</div>
+            </div>
+            <ul class="burger-list">
+                <a onclick="closeGotTo('#AppMining')">App Mining</a>
+                <a onclick="closeGotTo('#Features')">Features</a>
+                <a onclick="closeGotTo('#TimelineM')">Timeline</a>
+                <a onclick="closeGotTo('#Payment')">Pricing </a>
+                <a onclick="closeGotTo('#Contact')">Contact</a>
+                <a onclick="closeGotTo('#FAQ')">FAQ</a>
+            </ul>
+            <div class="mobile-buttons">
+                <a href="https://app.dmail.online/" class="mobile-login">Sign in</a>
+                <a href="https://app.dmail.online/" id="lower-font" class="mobile-create">Create Account</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="s1">
+        <div onclick="openInNewTab('https://app.co/mining/september-2019')" class="sticky-blue-banner">
+
+            <img class="blockstack-logo" src="./assets/Exclude.png" alt="">
+            <p class="sticky-blue-text"> September 2019 App Mining Winner</p>
+        </div>
+        <div class="slogan">
+            <h1 data-aos="fade-in" data-aos-duration="1500" class="Main">Decenterlized Email<br>
+                Private And Ads-Free</h1>
+            <p data-aos="fade-in" data-aos-duration="1500" class="text">Send Emails, Store files and Pay people with the
+                World's first <br>server-less Email service.No more spam.Based on Blockchain Auth .</p>
+        </div>
+        <div class="video-frame">
+            <img class="Demo-hero" src="./assets/Demo-Hero.png" alt="">
+            <i onclick="playVideo()" id="playbutton" class="fas fa-play"></i>
+            <video class="video" id="play" width="863.1" height="550" loop autoplay playsinline muted poster>
+                <source src="./assets/landing_loop1.mp4">
+            </video>
+
+        </div>
+
+    </div>
+    <div class=" show-mobile blue-banner">
+        <img class="GITEX" src="./assets/Gitex.png" alt="">
+        <p id="skew-1" class="blue-banner-text"> World-Class Technology Event </p>
+        <h1 id="skew-1" class="title-88">GITEX 2019</h1>
+        <p id="skew-1" class="blue-banner-text">Dubai | 06 - 09 October 2019</p>
+        <p id="skew-1" class="location"> Zabeel Hall 4 - Stand C-25 - Egyptian Pavilion,World
+            Trade Center</p>
+        <div class="buttons-2">
+            <a onclick="onOpenMeetPopUp()" class="create-99">Meet the team</a>
+            <a onclick="onOpenMeetPopUp1()" class="login-99">Investment Details</a>
+        </div>
+    </div>
+    <div class=" show-mobile  blue-banner">
+        <img class="blockstack" src="./assets/blockstack.png" alt="">
+        <img id="skew-1" class="t4th" src="./assets/4th Annual.png" alt="4th">
+        <h1 id="skew-1" class="title-88">Blockstack Summit</h1>
+        <p id="skew-1" class="blue-banner-text"> San Fransisco | 23 October 2019 </p>
+        <div class="buttons-2">
+            <a onclick="onOpenMeetPopUp4()" class="login-99">Investment Details</a>
+        </div>
+    </div>
+
+
+    <div class="blue-banner-1">
+        <div class="blue-banner-left">
+            <img class="GITEX" src="./assets/Gitex.png" alt="">
+            <p class="blue-banner-text"> World-Class Technology Event </p>
+            <h1 class="title-88">GITEX 2019</h1>
+            <p class="blue-banner-text">Dubai | 06 - 09 October 2019</p>
+            <p class="blue-banner-text"> Zabeel Hall 4 - Stand C-25 - Egyptian Pavilion, Gitex Dubai,
+                World Trade Center</p>
+            <div id="hide-mobile" class="buttons-2">
+                <a onclick="onOpenMeetPopUp()" class="create-99">Meet the team</a>
+                <a onclick="onOpenMeetPopUp1()" class="login-99">Investment Details</a>
+            </div>
+        </div>
+        <div class="blue-banner-right">
+            <img class="blockstack" src="./assets/blockstack.png" alt="">
+            <img class="t4th" src="./assets/4th Annual.png" alt="4th">
+            <h1 class="title-88">Blockstack Summit</h1>
+            <p class="blue-banner-text"> San Fransisco | 23 October 2019 </p>
+            <div id="skew" class="buttons-2">
+                <a onclick="onOpenMeetPopUp4()" class="login-88">Investment Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="AppMining" class="s55">
+        <!-- <div onclick="onOpenMeetPopUp2()" class="sticky-blue-banner-1">
+            <img class="dmails-logo" src="./assets/dmail icon.png" alt="">
+            <p class="sticky-blue-text"> Meet Dmails Founder</p>
+        </div> -->
+        <div class="art-55">
+            <p data-aos="fade-right" data-aos-duration="1500" class="s1-head">Total Earned +$85,000 From App Mining</p>
+            <h1 data-aos="fade-right" data-aos-duration="1500" class="Feature-Title">Rated the best App by the People
+            </h1>
+            <h3 class="push"> <span id="g">trymyUI</span>,<span id="o"> Product Hunt</span>,<span id="p">New Internet Labs </span> and <span id="c"> Awario </span><br>are the Four independent  reviewers who are incharge of the <br>App mining Reviews</h3>
+            <p data-aos="fade-right" data-aos-duration="1500" class="Feature-Body">Traditionally the term mining in
+                cryptocurrency refers to the process of contributing compute resources to the network
+                and earning a reward. In the Blockstack Ecosystem, instead of just mining through computation,
+                developers mine by
+                building apps and the Blockstack community funds them simply for being pioneers in the emerging
+                Blockchain software
+                market.</p>
+            <div data-aos="fade-in" data-aos-duration="1500">
+                <h1 class="Proud-Title">Proud To be</h1>
+                <div class="square">
+                    <div class="square-1">
+                        <a target="_blank" href="https://app.co/mining/june-2019"> <img class="Award-Badge"
+                                src="./assets/A1.png" alt=""> </a>
+                        <a target="_blank" href="https://app.co/mining/july-2019"><img class="Award-Badge"
+                                src="./assets/A2.png" alt=""></a>
+                    </div>
+                    <div class="square-1">
+                        <a target="_blank" href="https://app.co/mining/August-2019"><img class="Award-Badge"
+                                src="./assets/A3.png" alt=""></a>
+                        <a target="_blank" href="https://app.co/mining/September-2019"><img class="Award-Badge"
+                                src="./assets/A4.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="rateus">
+            <div>
+                <div class="rate-grey-card">
+                    <img class="rate-grey-card-img" src="./assets/ratemyui.png" alt="">
+                    <p class="rate-grey-card-text">TryMyUI is a usability online testing platform that enables website
+                        and app developers to get feedback from real users.
+                        Dmails has Improved in the last four Months because of perfect Reviews Like this.</p>
+                    <a target="_blank" href="http://www.trymyui.com/pva/86gGGY7eOTyLSN2w" class="review-button">Watch
+                        Review</a>
+                </div>
+                <div class="rate-grey-card-1">
+                    <img class="rate-grey-card-img-1" src="./assets/NIL.png" alt="">
+                    <p class="rate-grey-card-text-1">New Internet Labs evaluates apps submitted to the App Mining
+                        program based on how well they
+                        protect the fundamental digital rights of users, Dmails has Scored Perfectly for four
+                        Consecutive Mounths for upholding the Decentralized standards of privacy.</p>
+                    <a target="_blank"
+                        href="https://blog.blockstack.org/introducing-new-internet-labs-the-digital-rights-reviewer-for-app-mining/"
+                        class="review-button-1">Visit</a>
+                </div>
+            </div>
+            <div class="rate-cards-right">
+                <div class="rate-grey-card-2">
+                    <img class="rate-grey-card-img-2" src="./assets/product hunt logo horizontal orange.png" alt="">
+                    <p class="rate-grey-card-text-2">Product Hunt surfaces the best new products, every day. It's a
+                        place for product-loving enthusiasts to share and geek
+                        out about the latest mobile apps, websites, hardware projects, and tech creations.
+                        Make Sure to Support us on product hunt.</p>
+                    <a target="_blank"
+                        href="https://www.producthunt.com/posts/dmail-3?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dmail-3"
+                        class="review-button-2">Upvote Us</a>
+                </div>
+                <div class="rate-grey-card-3">
+                    <div class="rate-3-img">
+                        <img class="rate-grey-card-img-4" src="./assets/awario-left.png" alt=""> <img
+                            class="rate-grey-card-img-3" src="./assets/Awario.png" alt="">
+                    </div>
+                    <p class="rate-grey-card-text-3">Awario is a social listening tool that gives brands access to data
+                        that matters to their business: insights on their
+                        customers, market, and competitors.<br>Make Sure To Follow us on Twitter to Receive our latest
+                        News.</p>
+                    <a target="_blank" href="https://twitter.com/dmailonline" class="review-button-3">Follow on
+                        Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="rate-carousel glider-contain">
+            <div class="glider2">
+                <div class="grey-card">
+                    <img class="rate-grey-card-img" src="./assets/ratemyui.png" alt="">
+                    <p class="rate-grey-card-text">TryMyUI is a usability online testing platform that enables website
+                        and app developers to get feedback from real users.
+                        Dmails has Improved in the last four Mounths because of perfect Reviews Like this.</p>
+                    <a target="_blank" href="http://www.trymyui.com/pva/86gGGY7eOTyLSN2w" class="review-button">Watch
+                        Review</a>
+                </div>
+                <div class="grey-card">
+                    <img class="rate-grey-card-img-1" src="./assets/NIL.png" alt="">
+                    <p class="rate-grey-card-text-1">New Internet Labs evaluates apps submitted to the App Mining
+                        program based on how well they
+                        protect the fundamental digital rights of users, Dmails has Scored Perfectly for Four
+                        Consecutive Mounths for Upholding
+                        the Decentralized standards of Privacy.</p>
+                    <a target="_blank" href="https://www.newinternetlabs.com/" class="review-button-1">Visit</a>
+                </div>
+                <div class="grey-card">
+                    <img class="rate-grey-card-img-2" src="./assets/product hunt logo horizontal orange.png" alt="">
+                    <p class="rate-grey-card-text-2">Product Hunt surfaces the best new products, every day. It's a
+                        place for product-loving enthusiasts to share and geek
+                        out about the latest mobile apps, websites, hardware projects, and tech creations.
+                        Make Sure to Support us on product hunt</p>
+                    <a target="_blank"
+                        href="https://www.producthunt.com/posts/dmail-3?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dmail-3"
+                        class="review-button-2">Upvote</a>
+                </div>
+                <div class="grey-card">
+                    <div class="rate-3-img">
+                        <img class="rate-grey-card-img-4" src="./assets/awario-left.png" alt=""> <img
+                            class="rate-grey-card-img-3" src="./assets/Awario.png" alt="">
+                    </div>
+                    <p class="rate-grey-card-text-3">Awario is a social listening tool that gives brands access to data
+                        that matters to their business: insights on their
+                        customers, market, and competitors.
+                        Make Sure To Follow us on Twitter to Receive our latest News.
+                    </p>
+                    <a target="_blank" href="https://twitter.com/dmailonline" class="review-button-3">Follow on
+                        Twitter</a>
+                </div>
+            </div>
+            <button role="button" aria-label="Previous" class="glider-prev glider-prev-2">«</button>
+            <button role="button" aria-label="Next" class="glider-next glider-next-2">»</button>
+        </div>
+    </div>
+    <div class="blue-banner">
+        <h1 class="title-99">One year FREE Personal account for <br> the first 2500 early adopters</h1>
+        <div class="buttons-2">
+            <a href="https://app.dmail.online/" class="login-3 bannersButton">Sign In</a>
+            <a href="https://app.dmail.online/" class="create-3 bannersButton">Create Account</a>
+        </div>
+        <p class="tt">Unlocking starts October 6th - 10:00 Am (Dubai Time)</p>
+    </div>
+    <div id="Features">
+        <div class="s2">
+            <img class="USer" data-aos="fade-right" data-aos-duration="1500" class="img-1" src="./assets/uSers.png"
+                alt="">
+            <div class="art-1">
+                <p data-aos="fade-left" data-aos-duration="1500" class="s1-head">Identity & Contacts</p>
+                <h1 data-aos="fade-left" data-aos-duration="1500" class="Feature-Title">Refer To Your <br> Contacts By
+                    <br>
+                    Name,Not Brand</h1>
+                <p data-aos="fade-left" data-aos-duration="1500" class="Feature-Body">All account registered on Dmails
+                    are
+                    not owned by <br> Dmails,
+                    but it lives on a
+                    decentralized network. This <br> allow users to emails directly to their contact <br> without having
+                    to
+                    remember which email provider <br> your contact is using.</p>
+                <div data-aos="fade-in" data-aos-duration="1500" class="s2-button">
+                    <a href="https://app.dmail.online/" class="create">Create Account</a>
+                    <p class="s2-tip">Dmails is 100% free to use. We don't <br>need your personal information.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="s3">
+            <div class="art-2">
+                <p data-aos="fade-right" data-aos-duration="1500" class="s1-head">Identification & Communication</p>
+                <h1 data-aos="fade-right" data-aos-duration="1500" class="Feature-Title">Safeguard Your<br> Identity &
+                    <br>Communication </h1>
+                <p data-aos="fade-right" data-aos-duration="1500" class="Feature-Body">Dmails encrypts all communication
+                    and
+                    keep your<br>
+                    information private in a
+                    decentralized network using <br>Blockstack. Which means that all your personal<br> information will
+                    be
+                    kept private and no one can sell <br>your personal data to a third party to abuse.</p>
+                <div data-aos="fade-in" data-aos-duration="1500" class="s2-button">
+                    <a href="https://app.dmail.online/" class="create">Create Account</a>
+                    <p class="s2-tip">Dmails is 100% free to use. We don't need your personal information.</p>
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="1500" class="Dmail-Feature-1" src="" alt="Feature"></div>
+        </div>
+
+        <div class="s4">
+            <div data-aos="fade-right" data-aos-duration="1500" class="Dmail-Feature-2" alt="Feature"></div>
+            <div class="art-3">
+                <p data-aos="fade-left" data-aos-duration="1500" class="s1-head">Payment & Invoice</p>
+                <h1 data-aos="fade-left" data-aos-duration="1500" class="Feature-Title">Send & Pay <br>Invoice With<br>
+                    Cryptocurrency</h1>
+                <p data-aos="fade-left" data-aos-duration="1500" class="Feature-Body-4">Dmail's payment technology is
+                    powered by <br>Lightning
+                    Network that allows fast
+                    and cheaper <br>transaction for everyone. This makes it easy for<br> everyone to send and request
+                    payment such as<br> Bitcoin directly from Dmails and get paid faster and<br>cheaper. </p>
+                <div data-aos="fade-in" data-aos-duration="1500" class="s2-button">
+                    <a href="https://app.dmail.online/" class="create">Create Account</a>
+                    <p class="s2-tip">Dmails is 100% free to use. We don't need your personal information.</p>
+                </div>
+            </div>
+        </div>
+        <div class="s5">
+            <div class="art-5">
+                <p data-aos="fade-right" data-aos-duration="1500" class="s1-head">File Management</p>
+                <h1 data-aos="fade-right" data-aos-duration="1500" class="Feature-Title">Access All Your Attatchments
+                    Securely.</h1>
+                <p data-aos="fade-right" data-aos-duration="1500" class="Feature-Body">Attach files to your email
+                    instantly
+                    through a private,<br>
+                    high performance
+                    decentralized network. Simply <br>drag your files on D-Drive and easily attach it to<br> your email
+                    to
+                    send those files without reuploading <br>them again.</p>
+                <div data-aos="fade-in" data-aos-duration="1500" class="s2-button">
+                    <a href="https://app.dmail.online/" class="create">Create Account</a>
+                    <p class="s2-tip">Dmails is 100% free to use. We don't need your personal information.</p>
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="1500" class="Dmail-Feature-3" src="" alt=""></div>
+        </div>
+        <div class="s9">
+            <div class="s9-title">
+                <h1 data-aos="fade-in" class="s9-title-1">Coming Soon</h1>
+                <p data-aos="fade-in" data-aos-duration="1500" class="s9-title-2">Get Notified When We Launch Our Mobile
+                    Application</p>
+            </div>
+            <form class="form-group" id="notified">
+                <div class="s9-buttons">
+                    <div class="error-placment">
+                        <input class="s9-button-1" type="text" name="email3" placeholder="Email Address">
+                    </div>
+                    <input onclick="onNotified()" class=" btn btn-primary  s9-button-2" type="submit"
+                        value="Get Notified" id="submit-button"></input>
+                </div>
+            </form>
+            <div class="mobile">
+                <div>
+                    <img class="show-mobile" src="./assets/mobile.png" alt="">
+                </div>
+                <div class="mobile-features">
+                    <div class="mobile-feature">
+                        <div class="blue-circle">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <h3>Instant Notification</h3>
+                        <p>Get Instat Decentralized Notification To Notify you When You Rescive an Email </p>
+                    </div>
+                    <div class="mobile-feature">
+                        <div class="blue-circle"><i class="fas fa-lock-open"></i></div>
+                        <h3>Easier Authentication</h3>
+                        <p>Easier Authentication Using Fingerprint Or Facial Recognition </p>
+                    </div>
+                </div>
+                <div class="tenta">
+                    <img class="tenta-1" src="./assets/top-tenta-left.png" alt="">
+                    <img class="tenta-1" src="./assets/bottom-tenta-left.png" alt="">
+                </div>
+                <div>
+                    <img class="mobile-55" src="./assets/mobile.png" alt="">
+                </div>
+                <div class="tenta">
+                    <img class="tenta-1" src="./assets/top-right-tenta.png" alt="">
+                    <img class="tenta-1" src="./assets/brt.png" alt="">
+                </div>
+                <div class="mobile-features">
+                    <div class="mobile-feature">
+                        <div class="blue-circle"><i class="fas fa-bolt"></i></div>
+                        <h3>BTC Lightning Payment</h3>
+                        <p>Faster Payment Transfare using BTC Lightning Network </p>
+                    </div>
+                    <div class="mobile-feature">
+                        <div class="blue-circle"><i class="fas fa-box-open"></i></div>
+                        <h3>D-Storage</h3>
+                        <p>Decenterlized Sorage Using Blockstack Gaia Storage System</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blue-banner h33">
+            <h1 class="title-99">Start Using Dmails In Your <br>Workflow For Free Now</h1>
+            <div class="buttons-2">
+                <a href="https://app.dmail.online/" class="login-3 bannersButton">Sign In</a>
+                <a href="https://app.dmail.online/" class="create-3 bannersButton">Create Account</a>
+            </div>
+        </div>
+        <div class="s7">
+            <h1 class="s7-title">Dmails Is Made For All <br>Teams Of All Sizes</h1>
+            <p class="s7-text">Send email, store files and pay people with the world's first <br> decentralized email
+                client. Get an account for free with Blockstack</p>
+            <div class="s7-2">
+                <div class="corp">
+                    <div class="blue-card">
+                        <h1 class="Team-Title">Corporate</h1>
+                        <p class="s7-2-text">Dmails Helps You Secure your internal Communication
+                            and keeps your Sensitve Emails from leaking.<br>
+                            Dmails gives you unique IDs <span id="green-text"> User.CompanyName.id </span> To give your
+                            corporate Emails
+                            added Security.
+
+                        </p>
+                        <div id="skew" class="buttons-2 buttons-2-t">
+                            <a href="https://app.dmail.online/" class="login-3-3">Sign In</a>
+                            <a href="https://app.dmail.online/" class="create-3-3">Create Account</a>
+                        </div>
+
+                    </div>
+                    <h1 class="Team-Title">Corporate</h1>
+                    <img class="corporate" src="./assets/corporate-min.png" alt="">
+                </div>
+                <div class="clus-3">
+
+                    <div class="cluster3">
+                        <h1 class="Team-Title">Individuals </h1>
+                        <div class="blue-card-1">
+                            <h1 class="Team-Title-2">Individuals </h1>
+                            <p class="Team-text"> Dmails encrypts all your personal data and emails so you can email
+                                your friends without worrying that your data gets leaked or used for Ads
+                                No More Spam.
+                            </p>
+                            <a href="https://app.dmail.online/login" class="create-5">Create Account</a>
+                        </div>
+                        <img class="cluster3-1" src="./assets/2-min.png" alt="">
+                    </div>
+
+
+                    <div class="cluster3-3">
+                        <h1 class="Team-Title-2">Freelancers</h1>
+                        <div class="blue-card-1">
+                            <h1 class="Team-Title-2">Freelancers</h1>
+                            <p class="Team-text">Dmails gives you the ability to control who can
+                                see your data, and Has integrated Cryptocurrency Payment to have
+                                all the tools for your buissnes in one place
+                            </p>
+                            <a href="https://app.dmail.online/login" class="create-5">Create Account</a>
+                        </div>
+                        <img class="cluster3-1" src="./assets/1-min.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id='TimelineM' class=" show-mobile glider-contain">
+        <div class="roadmap-mobile">
+            <h1 class="s8-title">Dmails Is building & <br> adding features</h1>
+            <p class="s8-title-2">Send email, store files and pay people with the world's first <br>decentralized
+                email
+                client. Get an account for free with Blockstack</p>
+            <h3 class="stage">Mobile App & Broadcasting</h3>
+        </div>
+
+        <div class="glider1">
+            <div class=" roadmap-mobile">
+                <img src="./assets/roadmap-mobile-start.png" alt="">
+                <h3 class="Q">Q3 2019</h3>
+                <p class="roadmap-p">Dmails launched with emailing and payment feature that allows people to
+                    send and receive payments through lightning network. App Mining Winner.</p>
+                <p class="green-road-map-box">MPV Launching</p>
+                <p class="green-road-map-box">MVP Enhancement</p>
+                <p class="green-road-map-box">Joining App mining</p>
+                <div class="golden-road-map-box">
+                    <h4 class="golden-text">#1 Ranked</h4>
+                    <p>4 consecutive months</p>
+                </div>
+            </div>
+            <div class=" roadmap-mobile   show-mobile">
+                <img src="./assets/roadmap-mobile.png" alt="">
+                <h3 class="Q">Q4 2019</h3>
+                <p class="roadmap-p">Dmails mobile app launching on iOS and
+                    Android followed by a feature for
+                    broadcasting messages to contact list
+                    members.</p>
+                <p class="blue-road-map-box">Mobile App</p>
+                <p class="blue-road-map-box">New UI/UX</p>
+                <p class="blue-road-map-box">Corporate</p>
+            </div>
+            <div class=" roadmap-mobile   show-mobile">
+                <img src="./assets/roadmap-mobile.png" alt="">
+                <h3 class="Q">Q1 2020</h3>
+                <p class="roadmap-p">Dmails encrypts all communication and keep your information private in a
+                    decentralized network using Blockstack.</p>
+                <p class="blue-road-map-box">Mobile App</p>
+                <p class="blue-road-map-box">New UI/UX</p>
+            </div>
+        </div>
+        <button role="button" aria-label="Previous" class="glider-prev glider-prev-1">«</button>
+        <button role="button" aria-label="Next" class="glider-next glider-next-1">»</button>
+    </div>
+    <div id="Timeline" class="s8">
+        <div class="s8-title">
+            <h1 class="s8-title-1">Dmails Is building & <br> adding features</h1>
+            <p class="s8-title-2">Send email, store files and pay people with the world's first <br>decentralized email
+                client. Get an account for free with Blockstack</p>
+        </div>
+        <div class="roadmap-1">
+            <p class="element-1">Completed</p>
+            <p class="element-2">Current Stage</p>
+            <p class="element-3">Upcoming</p>
+        </div>
+        <img class="roadmap" src="./assets/Roadmap.png" alt="">
+        <div class="roadmap-2">
+            <p class="element-1-1">Q3 2019</p>
+            <p class="element-2-1">Q4 2019</p>
+            <p class="element-3-1">Q1 2020</p>
+        </div>
+        <div class="roadmap-3">
+            <div class="element-1-2">
+                <p class="roadmap-p">Dmails launched with emailing and <br> payment feature that allows people to <br>
+                    send and receive payments through <br>lightning network. App Mining Winner.</p>
+                <p class="green-road-map-box">MVP Launching</p>
+                <p class="green-road-map-box">MVP Enhancement</p>
+                <p class="green-road-map-box">Joining App mining</p>
+                <div class="golden-road-map-box">
+                    <h4 class="golden-text">#1 Ranked</h4>
+                    <p>4 consecutive months</p>
+                </div>
+            </div>
+            <div class="element-1-2">
+                <p class="roadmap-p">Dmails mobile app launching on iOS and <br>Android followed by a feature for<br>
+                    broadcasting messages to contact list <br> members.</p>
+                <p class="blue-road-map-box">Mobile App</p>
+                <p class="blue-road-map-box">New UI/UX</p>
+                <p class="blue-road-map-box">Corporate</p>
+            </div>
+            <div class="element-1-2">
+                <p class="roadmap-p">Dmails encrypts all communication and <br> keep your information private in a
+                    <br> decentralized network using Blockstack. </p>
+                <p class="blue-road-map-box">Desktop Version</p>
+                <p class="blue-road-map-box">Integration</p>
+            </div>
+        </div>
+    </div>
+    <div id="Payment" class="s9">
+        <div class="s9-title">
+            <h1 data-aos="fade-in" class="s9-title-1">Access Decentralized <br>Email From Anywhere</h1>
+            <p data-aos="fade-in" data-aos-duration="1500" class="s9-title-2">Send email, store files and pay people
+                with the world's first <br>decentralized email
+                client. Get an account for free with Blockstack</p>
+            <div class="switch">
+                <p class="Monthly active-99" id="active-1" onclick="toggle()">Monthly</p>
+                <p class="Yearly" id="active-2" onclick="toggle_1()">Yearly</p>
+            </div>
+        </div>
+        <div class="grey-cards">
+            <div data-aos="fade-in" class="grey-card-2">
+                <div class="pricing-header">
+                    <p class="plan">FREE</p>
+                    <h1 class="pricing">$0</h1>
+                    <hr class="pricing-hr">
+                    <p class="grey-card-text-2 bold ">Dmails will always be free for the people because Privacy is your
+                        right!</p>
+                </div>
+                <ul class="feature-pricing">
+                    <li class="grey-card-text-2"> <span class="blue-big-dot">•</span> For any Blockstack ID.</li>
+                    <li class="grey-card-text-2"><span class="blue-big-dot">•</span> Unlimited send/receive.</li>
+                    <li class="grey-card-text-2"><span class="blue-big-dot">•</span> Webmail / Desktop.</li>
+                    <li class="grey-card-text-2"><span class="blue-big-dot">•</span> Free GAIA storage supported by
+                        Blockstack.</li>
+                    <li class="grey-card-text-2"><span class="blue-big-dot">•</span> BTC lightning invoices collect
+                        only.</li>
+                </ul>
+                <p id="lower" class="Create-9">Create Blockstack ID</p>
+            </div>
+            <div data-aos="fade-in" class="grey-card-2 gg">
+                <div class="pricing-header">
+                    <p class="plan">PERSONAL</p>
+                    <div class="pricing-L">
+                        <h1 id="dollar" class="pricing">$4.99</h1>
+                        <p id="change">/ Month</p>
+                    </div>
+                    <hr class="pricing-hr">
+                    <p class="grey-card-text-2 bold">This plan is perfect if you want to take dmails to the next level.
+                    </p>
+                </div>
+                <ul class="feature-pricing">
+                    <li class="grey-card-text-2"><span class="blue-big-dot">•</span> Dmails ID formatting
+                        (yourName.dmails.id).</li>
+                    <li class="grey-card-text-2"><span class="blue-big-dot">•</span> Unlimited send/receive.</li>
+                    <li class="grey-card-text-2"><span class="blue-big-dot">•</span> Webmail / Desktop / Mobile.</li>
+                    <li class="grey-card-text-2"><span class="blue-big-dot">•</span> Free GAIA storage by Blockstack or
+                        connect your own GAIA from AWS, Dropbox or any preferred cloud.
+
+                    </li>
+                    <li class="grey-card-text-2"><span class="blue-big-dot">•</span> BTC lightning invoices collect and
+                        send money.</li>
+
+                </ul>
+                <div href="./personal.html" class="Create-9">Create Dmails ID
+
+                    <p class="BNS">Powerd By Blockstack <span
+                            onclick="openInNewTab('https://docs.blockstack.org/core/naming/introduction.html')"
+                            class="blue-BNS"> BNS </span> </p>
+                </div>
+            </div>
+            <div data-aos="fade-in" class="grey-card-2">
+                <div class="pricing-header">
+                    <p class="plan">ENTERPRISE</p>
+                    <div class="pricing">
+                        <h1 onclick="gotTo('#Contact')" class="pricing-1">Contact Us</h1>
+                    </div>
+                    <hr class="pricing-hr">
+                    <p class="grey-card-text-2 bold">Secure your Company Internal Communication.</p>
+                </div>
+                <ul class="feature-pricing">
+                    <li class="grey-card-text-2"><span class="blue-big-dot">•</span> Build a decentralized identity
+                        system with a name spacing of your
+                        brand.</li>
+                    <li class="grey-card-text-2"><span class="blue-big-dot">•</span> Integrate your emailing system with
+                        Dmails to secure your corporate
+                        internal and external communication.</li>
+                    <li class="grey-card-text-2"><span class="blue-big-dot">•</span> Employees identity system control.
+                    </li>
+                    <li class="grey-card-text-2"><span class="blue-big-dot">•</span> Fully encrypted storage management
+                        and control.</li>
+
+                </ul>
+                <p class=" push-33 Create-9">Contact us</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="s10">
+        <div class="stars">
+            <img class="star" src="./assets/star.png" alt="">
+            <img class="star" src="./assets/star.png" alt="">
+            <img class="star" src="./assets/star.png" alt="">
+            <img class="star" src="./assets/star.png" alt="">
+            <img class="star" src="./assets/star.png" alt="">
+        </div>
+        <div class="s10-title">
+            <h1 class="s10-title-1">Trusted By Over 4,000+ <br> People Worldwide</h1>
+        </div>
+        <div class="glider-contain">
+            <div class="glider0">
+                <div class="grey-card">
+                    <p class="grey-card-text">“This is also associated with <br> human rights because you have <br> the
+                        right to communicate with <br> others in a private and secure <br> way, Bitcoin could be useful
+                        to
+                        <br> software developers who are <br>freelancing all over the world.”</p>
+                    <div onclick="openInNewTab('https://www.coindesk.com/encrypted-email-service-launches-on-blockstack-with-bitcoin-features')"
+                        class="grey-card-more">
+                        <img class="grey-card-img" src="./assets/CoinDesk.png" alt="">
+                        <div class="Read-more"><i class="fas fa-arrow-right"></i>
+                            <p class="Read-more-1">Read more </p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" grey-card">
+                    <p class="grey-card-text">“Dmails presents email on the new <br> internet. It uses Blockstack and
+                        <br>Lightning Network to create a <br> decentralized service that puts <br> you in control of
+                        your
+                        own data.<br> With this latest blockchain <br>technology, you no longer need<br> to worry about
+                        giant tech <br>companies sharing your data <br> without your consent and<br> flooding your inbox
+                        with spam.”</p>
+                    <div onclick="openInNewTab('https://www.dapp.com/article/do-more-with-dapps')"
+                        class="grey-card-more">
+                        <img class="grey-card-img" src="./assets/Dapp.png" alt="">
+                        <div class="Read-more"><i class="fas fa-arrow-right"></i>
+                            <p class="Read-more-1"> Read more </p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" grey-card">
+                    <p class="grey-card-text">“It’s different from other email<br> providers in the sense that it<br>
+                        provides complete private<br> communication, with fully<br> end-to-end encrypted messages.<br>
+                        Dmails supports the BTC <br>Lightning Network, offers a <br>one-click crypto payment<br>
+                        integration.”</p>
+                    <div onclick="openInNewTab('https://www.dapp.com/article/do-more-with-dapps')"
+                        class="grey-card-more">
+                        <img class="grey-card-img" src="./assets/Mm.png" alt="">
+                        <div class="Read-more"><i class="fas fa-arrow-right"></i>
+                            <p class="Read-more-1">Read more </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button role="button" aria-label="Previous" class="glider-prev glider-prev-0">«</button>
+            <button role="button" aria-label="Next" class="glider-next glider-next-0">»</button>
+        </div>
+    </div>
+    <!-- <div class="s10">
+        <div class="s11-title">
+            <h1 class="s10-title-1">What people have to say <br>about dmails</h1>
+        </div>
+        <div class="glider-contain">
+            <div class="glider1">
+                <div class="grey-card-1">
+                    <p class="grey-card-text-1">“Finally someone built a vider
+                        that’s private and secured by design and can’t b 
+                    <div class="grey-card-textWrapper">
+                        <img class="grey-card-person-img" src="./assets/ "">
+                        <p class="grey-card-name">Mohamed Elkasstawi,<br ounding Partner at zk
+                                Capital</span></p>
+                    </div>
+                </div>
+                <div class="grey-card-1">
+                    <p class="grey-card-text-1">“A new way of using Blockchain in serving the business, i
+                        think this will be one of the pioneer solutions for emails
+                        using blockchain technology”</p>
+                    <div class="grey-card-textWrapper">
+                        <img class="grey-card-person-img" src="./assets/person-2.jpeg" alt="">
+                        <p class="grey-card-name">Ahmed Mansour, <br><span id="job"> Head of digital channels and
+                                Blockchain Expert in central bank of Egypt</span></p>
+                    </div>
+                </div>
+                <div class="grey-card-1">
+                    <p class="grey-card-text-1">“Finally someone built an email service provider
+                        that’s private and secured by design and can’t be evil”</p>
+                    <div class="grey-card-textWrapper">
+                        <img class="grey-card-person-img" src="./assets/person-1.jpeg" alt="">
+                        <p class="grey-card-name">Mohamed Elkasstawi,<br> <span id="job">Founding Partner at zk
+                                Capital</span></p>
+                    </div>
+                </div>
+            </div>
+            <button role="button" aria-label="Previous" class="glider-prev glider-prev-1">«</button>
+            <button role="button" aria-label="Next" class="glider-next glider-next-1">»</button>
+        </div>
+        <div data-aos="fade-in" class="slog"> -->
+
+    </div>
+    </div>
+    <div class="blue-banner h33 align">
+        <h1 class="title-99">Start Using Dmails In Your <br>Workflow For Free Now</h1>
+        <div class="buttons-2">
+            <a href="https://app.dmail.online/" class="login-3 bannersButton">Sign In</a>
+            <a href="https://app.dmail.online/" class="create-3 bannersButton">Create Account</a>
+        </div>
+    </div>
+    <div id="Contact" class="s9">
+        <div class="s9-title">
+            <h1 class="s9-title-1">Contact Us</h1>
+            <p class="s9-title-2">Send email, store files and pay people with the world's first<br> decentralized email
+                client. Get an account for free with
+                Blockstack</p>
+        </div>
+        <div class="Contact">
+            <div class="Map">
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3453.285233373754!2d31.338075215069725!3d30.057357481877666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x14583e657cfd9805%3A0x93086004fa4fa892!2s15%20Sakaliya%2C%20Al%20Manteqah%20as%20Sadesah%2C%20Nasr%20City%2C%20Cairo%20Governorate!3m2!1d30.0573575!2d31.3402639!5e0!3m2!1sen!2seg!4v1568021613295!5m2!1sen!2seg"
+                    width="644" height="553" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <form class="form-group" id="contact">
+                <div class="Contact-form">
+                    <div class="error-placment">
+                        <input required class="I-1" type="text" name="Name4" placeholder="Name">
+                    </div>
+                    <div class="error-placment">
+                        <input required class="I-1" type="email" name="email4" id="" placeholder="Email Address">
+                    </div>
+                    <textarea class="I-2" type="text" name="comment" id="" placeholder="Content" rows="9"></textarea>
+                    <input onclick="onNotified()" class="btn btn-primary s11-button" id="submit-button" type="submit"
+                        value="Submit"></input>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <div id="FAQ" class="s12">
+        <div class="s12-title">
+            <h1 class="s12-title-1">FAQ</h1>
+        </div>
+        <div class="FAQ">
+            <div class="question">
+                <p class="question-1">Why Dmails </p>
+                <div id="item-1">
+                    <i id="I1" class=" fas fast fa-chevron-down"></i>
+                </div>
+            </div>
+            <div id="para-1" class="answer-1">
+                Dmails is the first true Private Emailing Services we offer.
+                <ul>
+                    <li>• Complete Private Communication.</li>
+                    <li>• Fully E2E Encrypted Messages.</li>
+                    <li> • One-Click Crypto Payment Integration.</li>
+                    <li>• Supporting BTC Lightning Network.</li>
+                    <li>• Corporate Integration To Guarantee A Highly Secured Internal Communication.</li>
+                    <li>• Data Owned And Controlled By You, NOT US.</li>
+                    <li>• Censorship Resistance.</li>
+                </ul>
+            </div>
+            <hr class="FAQ-hr">
+            <div>
+                <div class="question">
+                    <p class="question-1">How is my data secured ?</p>
+                    <div id="item-2"><i id="I2" class="fas fast fa-chevron-down rotate-arrow"></i></div>
+
+                </div>
+                <p id="para-2" class="answer-1">your data is highly secured By you No one has access to your data other
+                    than you , you are in control of your own data ,
+                    Using gaia storage it allows you to choose where you want to save your data and who has access</p>
+            </div>
+
+            <hr class="FAQ-hr">
+
+            <div>
+                <div class="question">
+                    <p class="question-1">Can Dmails Track my Mails </p>
+                    <div id="item-3">
+                        <i id="I3" class="fas fast fa-chevron-down rotate-arrow"></i>
+                    </div>
+                </div>
+                <p id="para-3" class="answer-1">Dmails Doesn't have Corporate Servers all Your Mails Are Stored in your
+                    Gaia Storage System Encrypted With your private Key.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-2">
+            <img class="footer-logo" src="./assets/logo 2 s BW - dark.png" alt="">
+            <p class=" newsletter-3  align44">Join our Decenterlized Newsletter To <br> Get The latest news
+                and Update.</p>
+            <form id="blockstack-id">
+                <input class="notify-55" name="blockstackid" id="blockstackid" type="text" placeholder="Your Blockstack ID">
+                <div class="notify-55-buttons">
+                    <div onclick="submitId()" class="btn btn-primary notify-55-button" id="submit-button">Notify</div>
+            </form>
+            <p class="s2-tip"> <a href="https://app.dmail.online/" class="hyper-link"> Create Account </a> Now to
+                be the first <br>to know about Dmails Updates</p>
+        </div>
+    </div>
+    <div class="footer-1">
+        <a href="#" class="align44">Dmails</a>
+        <a target="_blank" href="https://docs.dmails.io/" class="align44"><span id="lighten">Documentation</span></a>
+        <a target="_blank" href="https://app.graphitedocs.com/shared/docs/dmails.id&id=1561893733182"
+            class="align44"><span id="lighten">Privacy</span></a>
+        <a target="_blank" href="#" class="align44"><span id="lighten">Airdrops</span></a>
+    </div>
+    <div class="footer-1">
+        <a href="#" class="align44">Blockstack</a>
+        <a target="_blank" href="https://blockstack.org/about" class="align44"><span id="lighten">About</span></a>
+        <a target="_blank" href="https://app.co/mining" class="align44"><span id="lighten">App Mining</span></a>
+
+    </div>
+    <div class="footer-1">
+        <a class="align44">Get Connected</a>
+        <a href="#" id="lighten" class="align44"><i class="fab fa-facebook"></i>
+            Facebook</a>
+        <a href="#" id="lighten" class="align44"><i class="fab fa-twitter"></i>
+            Twitter</a>
+    </div>
+    </div>
+
+    <div class="mobile-footer">
+        <div class="mobile-footer-1">
+            <div class="mobile-footer-1-1">
+                <p>Dmails</p>
+                <a target="_blank" href="https://docs.dmails.io/" id="lighten">Documentation</a>
+                <a target="_blank" href="https://app.graphitedocs.com/shared/docs/dmails.id&id=1561893733182"
+                    id="lighten">Privacy</a>
+                <p id="lighten">Airdrops</p>
+            </div>
+            <div class="mobile-footer-1-2">
+                <p>Blockstack</p>
+                <a target="_blank" href="https://blockstack.org/about" id="lighten">About</a>
+                <a target="_blank" href="https://app.co/mining" id="lighten">App Mining</a>
+            </div>
+        </div>
+        <div>
+            <img src="./assets/logo 2 s BW - dark.png" alt="">
+            <p>Join Our Decentralized Newsletter</p>
+            <form id="blockstack-id-mobile">
+                <input class="notify-55" name="blockstackid" id="" type="text" placeholder="Your Blockstack ID">
+                <div class="notify-55-buttons">
+                    <input class="btn btn-primary notify-55-button" id="submit-button"
+                        type="submit" value="Notify"></input>
+            </form>
+        </div>
+        <div class="mobile-footer-3">
+            <p>Get Connected</p>
+            <a href="#" id="lighten"><i class="fab fa-facebook"></i>
+                Facebook</a>
+            <a href="#" id="lighten"><i class="fab fa-twitter"></i>
+                Twitter</a>
+
+        </div>
+    </div>
+    <div class="blackbar">
+        <p class="CR">Copyright 2019</p>
+
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="glider.min.js"></script>
+</body>
