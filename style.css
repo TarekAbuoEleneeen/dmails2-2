@@ -2057,7 +2057,7 @@ body {
 
 .Contact {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 65px;
 }
 
@@ -2073,11 +2073,10 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-left: 121px;
 }
 
 .I-1 {
-  width: 565px;
+  width: 726px;
   height: 48px;
   border-radius: 39px;
   border: solid 0.5px #373737;
@@ -2097,6 +2096,7 @@ body {
   color: white;
   margin-top: 30px;
   font-size: 15px;
+  resize: none;
 }
 
 .error {
@@ -2120,7 +2120,8 @@ body {
 
 .s11-button {
   padding: 12px 21px;
-  width: 120px;
+  align-self: center;
+  width: 90%;
   border-radius: 68px;
   background-color: #0065f2;
   color: white;

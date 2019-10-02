@@ -490,7 +490,8 @@ function openInSameTab(url) {
   function submitId2() {
         var inputVal = document.getElementById("E2").value;
         var inputVale = document.getElementById("E1").value;
-      if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(inputVal) && inputVale.trim().length > 1 )  {
+        var inputVali = document.getElementById("E99").value;
+      if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(inputVal) && inputVale.trim().length > 1 && inputVali.trim().length > 1)  {
             toastr.success('Form Submited Successfully')
         } 
         else {
