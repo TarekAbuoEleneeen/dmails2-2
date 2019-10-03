@@ -315,7 +315,7 @@ body {
 .create, .mobile-create {
   cursor: pointer;
   margin-left: 10px;
-  padding: 12px 30px;
+  padding: 12px 18px;
   border-radius: 68px;
   background-color: #0065f2;
   font-weight: bold;
@@ -374,7 +374,7 @@ body {
 }
 
 #lower {
-  margin-top: 28%;
+  margin-top: 30%;
 }
 
 .sticky-blue-banner-1 {
@@ -894,16 +894,14 @@ body {
 
 .art-1, .art-55 {
   padding-right: 43px;
-}
-
-.art-1 {
-  padding-bottom: 127px;
+  width: 33%;
 }
 
 .art-55 {
   padding-top: 60px;
   padding-left: 30px;
   height: auto;
+  width: 50%;
 }
 
 .s1-head {
@@ -948,8 +946,11 @@ body {
   text-align: center;
   display: flex;
   margin-top: 42px;
-  justify-content: space-between;
   align-items: center;
+}
+
+.s2 {
+  background-position-y: 90px;
 }
 
 .s2-tip {
@@ -982,27 +983,30 @@ body {
 }
 
 .Dmail-Feature-1 {
-  width: 727px;
+  width: 48%;
   height: 630.44px;
   object-fit: contain;
   background: url("./assets/l2.png");
   background-size: 727px 733.44px;
+  background-repeat: no-repeat;
 }
 
 .Dmail-Feature-2 {
-  width: 727px;
+  width: 48%;
   height: 733.44px;
   object-fit: contain;
   background: url("./assets/L44.png");
   background-size: 727px 733.44px;
+  background-repeat: no-repeat;
 }
 
 .Dmail-Feature-3 {
-  width: 727px;
+  width: 48%;
   height: 650.44px;
   object-fit: contain;
   background: url("./assets/L55.png");
   background-size: 727px 733.44px;
+  background-repeat: no-repeat;
 }
 
 /* s4 */
@@ -1045,8 +1049,8 @@ body {
 }
 
 .art-5 {
-  padding-left: 165px;
-  padding-bottom: 143px;
+  padding-left: 144px;
+  padding-bottom: 89px;
 }
 
 .blue-banner, .blue-banner-1 {
@@ -1107,6 +1111,7 @@ body {
   color: #0065f2;
   border-radius: 68px;
   margin-right: 20px;
+  margin-top: 22px;
 }
 
 .create-99:hover, .login-99:hover, .create-88:hover, .login-88:hover {
@@ -1116,7 +1121,7 @@ body {
 }
 
 .create-88, .login-88 {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .title88 {
@@ -1447,13 +1452,14 @@ body {
 
 .roadmap-3 {
   margin-top: 10px;
-  padding: 0px 199px 0 206px;
+  padding: 0px 199px 0 170px;
 }
 
 .element-1-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 25%;
 }
 
 .roadmap {
@@ -1468,7 +1474,8 @@ body {
   font-size: 14px;
   text-align: center;
   opacity: 0.96;
-}
+  padding: 0 2.5% 0 2.5%;
+  }
 
 .pricing-header {
   padding-bottom: 20px;
@@ -1716,7 +1723,8 @@ body {
   font-size: 36px;
   margin-top: 30px;
   margin-bottom: 10px;
-  text-align: center;
+  text-align: left;
+  padding-left: 19%;
 }
 
 .name {
@@ -1949,6 +1957,10 @@ body {
   text-align: left !important;
 }
 
+.forums {
+  margin-top: 14px;
+}
+
 .bold {
   font-weight: bold !important;
   padding-top: 20px;
@@ -1987,14 +1999,14 @@ body {
   background-color: #0065f2;
   color: white;
   cursor: pointer;
-  margin-top: 5px;
+  margin-top: 35px;
 }
 
 .tt {
   font-size: 13px;
   color: #5CA0FF;
   margin-bottom: 67px;
-  padding-top: 52px;
+  padding-top: 29px;
   font-weight: bold;
 }
 
@@ -2076,8 +2088,8 @@ body {
   width: 100%;
 }
 
-.I-1 {
-  width: 726px;
+.I-1, .I-1-1 {
+  width: 344px;
   height: 48px;
   border-radius: 39px;
   border: solid 0.5px #373737;
@@ -2085,6 +2097,10 @@ body {
   padding-left: 20px;
   color: white;
   margin-bottom: 20px;
+}
+
+.I-1-1 {
+  margin-left: 10px;
 }
 
 .I-2 {
@@ -2122,7 +2138,7 @@ body {
 .s11-button {
   padding: 12px 21px;
   align-self: center;
-  width: 90%;
+  width: 100%;
   border-radius: 68px;
   background-color: #0065f2;
   color: white;
@@ -2331,6 +2347,137 @@ body {
 
 .rate-carousel {
   display: none;
+}
+
+.contact-form-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1560px) {
+  .Main {
+    font-size: 85px;
+    line-height: 1.2;
+  }
+  .text {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .s1-head {
+    font-size: 32px;
+    width: 100%;
+    height: 100%;
+  }
+  .video-frame {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .video {
+    position: absolute;
+    top: 88px;
+    height: 81%;
+    left: 94px;
+    width: 92%;
+  }
+  #playbutton {
+    transition: all .3s;
+    cursor: pointer;
+    position: absolute;
+    z-index: 6;
+    left: 25%;
+    bottom: 100px;
+    width: 101.9px;
+    height: 101.9px;
+    box-shadow: 8.6px 10.1px 14px 0 rgba(0, 0, 0, 0.08);
+    background: rgba(0, 101, 242, 1);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+  }
+  .Demo-hero {
+    width: 65%;
+    height: auto;
+  }
+  .Feature-Title {
+    font-size: 85px;
+    width: 100%;
+    height: 100%;
+  }
+  .Feature-Body {
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+  }
+  .k-feature {
+    padding-right: 30%;
+  }
+  .blue-banner-1 {
+    height: 400px;
+  }
+  .push {
+    font-size: 32px;
+  }
+  .Proud-Title {
+    font-size: 52px;
+  }
+  .title-88 {
+    font-size: 62px;
+  }
+  .create-99 {
+    width: 254px;
+    height: 62px;
+    font-size: 24px;
+  }
+  .Dmail-Feature-1, .Dmail-Feature-2, .Dmail-Feature-3, .Dmail-Feature-4 {
+    width: 50%;
+    height: 1000px;
+    object-fit: contain;
+    background: url(./assets/l2.png);
+    background-size: 100% 124%;
+    background-repeat: no-repeat;
+  }
+  .login-88 {
+    width: 254px;
+    height: 62px;
+    font-size: 24px;
+    margin-top: 33px;
+  }
+  .blue-banner-text {
+    font-size: 25px;
+  }
+  .s2-button {
+    justify-content: flex-start;
+  }
+  .s2-tip {
+    width: 50%;
+    font-size: 20px;
+  }
+  .create {
+    font-size: 30px;
+    height: 72px;
+    width: 50%;
+  }
+  .Feature-Body-4 {
+    font-size: 30px;
+  }
+  .square {
+    width: 100%;
+  }
+  .square-1 {
+    width: 60%;
+    height: 50%;
+  }
+  .Award-Badge {
+    width: 341.45px;
+    height: 85.19px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -3182,7 +3329,7 @@ body {
     right: 7px;
   }
   .roadmap-1, .roadmap-2, .roadmap-3 {
-    padding: 0 265px 0 241px;
+    padding: 0px 199px 0 180px;
   }
 }
 

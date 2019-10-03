@@ -486,6 +486,14 @@ function openInSameTab(url) {
             toastr.error('Make sure you entered a correct blockstackid')
         }
     }
+  function submitId6() {
+        var inputVal = document.getElementById("blockstackid2").value;
+        if (inputVal.includes(".id" || ".id.blockstack" || ".dmail.id")) {
+            toastr.success('Form Submited Successfully')
+        } else {
+            toastr.error('Make sure you entered a correct blockstackid')
+        }
+    }
     
   function submitId2() {
         var inputVal = document.getElementById("E2").value;
